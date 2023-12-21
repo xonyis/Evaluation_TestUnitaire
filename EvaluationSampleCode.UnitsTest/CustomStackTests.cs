@@ -4,7 +4,7 @@
 public class CustomStackTests
 {
     [TestMethod]
-    public void Count_EmptyStack_ReturnsZero()
+    public void Count_ReturnsZero()
     {
         // Arrange
         var customStack = new CustomStack();

@@ -23,7 +23,7 @@ public class MathOperationsTests
     [DataRow(10, 2, 5f)]
     [DataRow(-10, 2, -5f)]
     [DataRow(10, -2, -5f)] 
-    public void Divide_DividingByNonZeroNumber_ReturnsCorrectResult(int numberOne, int numberTwo, float expectedResult)
+    public void Divide_NonZero_ReturnsCorrectResult(int numberOne, int numberTwo, float expectedResult)
     {
         // Arrange
         var mathOperations = new MathOperations();
@@ -33,5 +33,16 @@ public class MathOperationsTests
 
         // Assert
         Assert.AreEqual(expectedResult, result);
+    }
+
+    [TestMethod]
+    [DataRow(50, 0)]
+    public void Divide_ByZero_ThrowsArgumentException(int numberOne, int numberTwo)
+    {
+        // Arrange
+        var mathOperations = new MathOperations();
+
+        // Act & Assert
+        Assert.ThrowsException<ArgumentException>(() => mathOperations.Divide(numberOne, numberTwo));
     }
 }
