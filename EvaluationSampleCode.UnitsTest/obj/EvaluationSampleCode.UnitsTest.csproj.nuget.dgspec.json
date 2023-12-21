@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode.UnitsTest/EvaluationSampleCode.UnitsTest.csproj": {}
+  },
+  "projects": {
+    "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode.UnitsTest/EvaluationSampleCode.UnitsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode.UnitsTest/EvaluationSampleCode.UnitsTest.csproj",
+        "projectName": "EvaluationSampleCode.UnitsTest",
+        "projectPath": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode.UnitsTest/EvaluationSampleCode.UnitsTest.csproj",
+        "packagesPath": "/Users/julia/.nuget/packages/",
+        "outputPath": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode.UnitsTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/julia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode/EvaluationSampleCode.csproj": {
+                "projectPath": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode/EvaluationSampleCode.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode/EvaluationSampleCode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode/EvaluationSampleCode.csproj",
+        "projectName": "EvaluationSampleCode",
+        "projectPath": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode/EvaluationSampleCode.csproj",
+        "packagesPath": "/Users/julia/.nuget/packages/",
+        "outputPath": "/Users/julia/Desktop/PratiqueWithCode_Subject/EvaluationSampleCode/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/julia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

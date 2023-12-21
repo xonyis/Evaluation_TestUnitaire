@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{9793C069-7B66-4B3F-9245-6BEC120DB968}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EvaluationSampleCode/CustomStack.cs">
+    <Files>
+      <File FileName="EvaluationSampleCode/MathOperations.cs" />
+      <File FileName="EvaluationSampleCode/CustomStack.cs" Line="1" Column="1" />
+      <File FileName="EvaluationSampleCode/HtmlFormatHelper.cs" />
+      <File FileName="EvaluationSampleCode/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PratiqueWithCode" expanded="True">
+            <Node name="EvaluationSampleCode" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PratiqueWithCode" expanded="True">
+            <Node name="EvaluationSampleCode" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EvaluationSampleCode.UnitsTest FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EvaluationSampleCode PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
